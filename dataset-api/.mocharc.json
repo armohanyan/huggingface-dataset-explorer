@@ -1,0 +1,25 @@
+{
+	"diff": true,
+	"extension": ["ts"],
+	"package": "./package.json",
+	"reporter": "spec",
+	"slow": "75",
+	"timeout": "30000",
+	"ui": "bdd",
+	"exit": true,
+	"spec": "test/**/*.test.ts",
+	"require": ["ts-node/register", "tsconfig-paths/register", "dotenv/config"],
+	"watch-files": ["test/**/*.ts", "src/**/*.ts"],
+	"exclude": [
+		"lib/vendor",
+		"dependencies",
+		"node_modules",
+		".git"
+	],
+	"watch-ignore": [
+		"lib/vendor",
+		"dependencies",
+		"node_modules",
+		".git"
+	]
+}

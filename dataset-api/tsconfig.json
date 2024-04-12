@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"pretty": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"outDir": "dist",
+		"baseUrl": "./src",
+		"target": "ES2022",
+		"strict": true,
+		"noImplicitAny": false
+	},
+	"exclude": ["node_modules", "dependencies", "dist"],
+
+	"ts-node": {
+		"esm": true
+	}
+	
+}
